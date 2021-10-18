@@ -1,4 +1,4 @@
-# SIDR
+# SIDR -- BETA
 ## README ##
 
 SIDR3 is located on UAHPC in /jlf/acmccormack1/SIDR3/
