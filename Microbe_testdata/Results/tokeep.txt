@@ -1,8 +1,0 @@
-Sequence_Name	Label
-ctg000000_np12	target
-ctg000010_np12	target
-ctg000020_np12	target
-ctg000030_np12	target
-ctg000040_np12	target
-ctg000050_np12	target
-ctg000060_np12	target
