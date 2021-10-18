@@ -8,12 +8,12 @@ this takes unclassified reads and classifies them using the desicion tree functi
 output of the decision tree is written to tokeep.txt and toremove.txt 
 
 Also prints fulldata.txt which includes the Sequence_Name, Label, GC_Content, and Coverage for each contig/sequence. 
-
-
-
-Example command:
-SIDR2.0 -f contigs.fasta -t /path/to/NCBI_Taxdump/ -b blast.out -c nematoda -n 3 -a reads.bam
-
+/n
+/n
+/n
+Example command: /n
+SIDR2.0 -f contigs.fasta -t /path/to/NCBI_Taxdump/ -b blast.out -c nematoda -n 3 -a reads.bam /n
+/n
 options:
 -f contigs.fasta ## your assembled genome
 -t NCBI_Taxdump/  ## path to NCBI_Taxdump
