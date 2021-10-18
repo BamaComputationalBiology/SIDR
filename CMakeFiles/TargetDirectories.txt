@@ -1,0 +1,7 @@
+/jlf/acmccormack1/SIDR3/CMakeFiles/install/strip.dir
+/jlf/acmccormack1/SIDR3/CMakeFiles/install/local.dir
+/jlf/acmccormack1/SIDR3/CMakeFiles/install.dir
+/jlf/acmccormack1/SIDR3/CMakeFiles/list_install_components.dir
+/jlf/acmccormack1/SIDR3/CMakeFiles/rebuild_cache.dir
+/jlf/acmccormack1/SIDR3/CMakeFiles/edit_cache.dir
+/jlf/acmccormack1/SIDR3/CMakeFiles/SIDR2.0.dir
