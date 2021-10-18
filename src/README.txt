@@ -30,8 +30,7 @@ options:
 this takes unclassified reads and classifies them using the desicion tree function. 
 output of the decision tree is written to tokeep.txt and toremove.txt 
 
-however it doesnt print out the target and nottarget contigs. 
-I need to change it so it writes those files. and adds those to tokeep.txt and toremove.txt
+Also prints fulldata.txt which includes the Sequence_Name, Label, GC_Content, and Coverage for each contig/sequence. 
 
 
 
