@@ -36,7 +36,7 @@ Also prints fulldata.txt which includes the Sequence_Name, Label, GC_Content, an
 
 
 
-###Python files
+### Python files
 within the /src/ directory you can find the python files:
 - analysis_new.py ## a working version not called by SIDR
 - analysis_old.py ## an old version with other options, not working
