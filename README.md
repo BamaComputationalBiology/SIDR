@@ -9,7 +9,8 @@ output of the decision tree is written to tokeep.txt and toremove.txt
 
 Also prints fulldata.txt which includes the Sequence_Name, Label, GC_Content, and Coverage for each contig/sequence. 
 
-
+### Sample Data
+Sample data too large to upload to Github. Created a Box Drive with it. 
 
 ### Example command: 
 > SIDR2.0 -f contigs.fasta -t /path/to/NCBI_Taxdump/ -b blast.out -c nematoda -n 3 -a reads.bam 
