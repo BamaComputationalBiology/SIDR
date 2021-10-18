@@ -49,14 +49,22 @@ Whatever version of the analysis that you want to run should be put here.
 
 ### working script for UAHPC from /jlf/peadams/SIDR3_runs/UA44/
 > #!/bin/bash
+> 
 > #SBATCH -p highmem
+> 
 > #SBATCH --qos jlfierst
+> 
 > #SBATCH -n 3
+> 
 > #SBATCH --mem-per-cpu=8G
+> 
 > #SBATCH --job-name=UA44_SIDR
+> 
 > #SBATCH -e %J.err
+> 
 > #SBATCH -o %J.out
-
+>
+>
 > /jlf/acmccormack1/SIDR3/SIDR2.0 -f UA44.fasta -t /jlf/acmccormack1/Pipelines/Metagenome_Decontamination/Data/NCBI_Taxdump/ -b UA44.blast.out -c nematoda -n 3 -a UA44.bam
 
 
