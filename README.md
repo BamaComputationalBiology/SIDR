@@ -3,8 +3,8 @@
 
 SIDR3 is located on UAHPC in /jlf/acmccormack1/SIDR3/
 
-this version takes in a fasta, NCBI_taxdump, blast results, and the reads aligned to the genome (.bam). You also tell it the target and nodes
-this takes unclassified reads and classifies them using the desicion tree function. 
+This version takes in a fasta, NCBI_taxdump, blast results, and the reads aligned to the genome (.bam). You also tell it the target and nodes.
+This takes unclassified reads and classifies them using the desicion tree function. 
 output of the decision tree is written to tokeep.txt and toremove.txt 
 
 Also prints fulldata.txt which includes the Sequence_Name, Label, GC_Content, and Coverage for each contig/sequence. 
@@ -16,14 +16,20 @@ Also prints fulldata.txt which includes the Sequence_Name, Label, GC_Content, an
 
 ### options:
 > -f contigs.fasta ## your assembled genome
+> 
 > -t NCBI_Taxdump/  ## path to NCBI_Taxdump
+> 
 > -b blast.out  ## blast output file
+> 
 > -c nematoda ##target phylum (can optionally change the rank)
+> 
 > -n 3 ## nodes/threads??
+> 
 > -a reads.bam ## alignment of reads to assembled genome for coverage estimations
 
 ### optional options:
 > -r rank (change default taxon rank from phylum)
+> 
 > -k kmers (change k-mer distribution from default)
 
 
@@ -32,9 +38,9 @@ Also prints fulldata.txt which includes the Sequence_Name, Label, GC_Content, an
 
 ###Python files
 within the /src/ directory you can find the python files:
-analysis_new.py ## a working version not called by SIDR
-analysis_old.py ## an old version with other options, not working
-analysis.py ## the python script called by SIDR
+- analysis_new.py ## a working version not called by SIDR
+- analysis_old.py ## an old version with other options, not working
+- analysis.py ## the python script called by SIDR
 
 
 SIDR3 calls the analysis.py file when running. It does not need to be recompiled to run the new copy of analysis.py. 
