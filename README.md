@@ -1,7 +1,7 @@
 # SIDR -- BETA
 ## README ##
 
-SIDR3 is located on UAHPC in /jlf/acmccormack1/SIDR3/
+SIDR3 is located on UAHPC
 
 This version takes in a fasta, NCBI_taxdump, blast results, and the reads aligned to the genome (.bam). You also tell it the target and nodes.
 This takes unclassified reads and classifies them using the desicion tree function. 
@@ -66,7 +66,7 @@ Whatever version of the analysis that you want to run should be put here.
 > #SBATCH -o %J.out
 >
 >
-> /jlf/acmccormack1/SIDR3/SIDR2.0 -f UA44.fasta -t /jlf/acmccormack1/Pipelines/Metagenome_Decontamination/Data/NCBI_Taxdump/ -b UA44.blast.out -c nematoda -n 3 -a UA44.bam
+> SIDR2.0 -f UA44.fasta -t /pipeline/to/taxdump/NCBI_Taxdump/ -b UA44.blast.out -c nematoda -n 3 -a UA44.bam
 
 
 
